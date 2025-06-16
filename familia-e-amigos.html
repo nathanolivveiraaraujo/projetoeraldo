@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Galeria - Família e Amigos</title>
+  <link rel="stylesheet" href="css/geral.css" />
+  <style>
+    body {
+      background-color: #fffafa;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    h1 {
+      padding: 40px 20px 10px;
+      color: #b30000;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .gallery img {
+      width: 280px;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.03);
+    }
+
+    .btn-voltar {
+      display: inline-block;
+      margin: 30px auto;
+      padding: 12px 24px;
+      background-color: #b30000;
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      font-size: 1rem;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn-voltar:hover {
+      background-color: #800000;
+    }
+
+    footer {
+      margin-top: 30px;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <h1>Galeria de Memórias</h1>
+
+  <div class="gallery">
+    <img src="img/img/treinador.jpg" alt="treinador">
+    <img src="img/img/irmã.jpg" alt="Irmã">
+    <img src="img/img/amigos2.jpg" alt="Amigos de infância">
+    <img src="img/img/amigo.jpg" alt="amigo">
+    <img src="img/img/aaaa.jpg" alt="Brendinha">
+    <img src="img/img/muita gente.jpg" alt="Galera">
+  </div>
+
+  <a href="index.html" class="btn-voltar">⬅ Voltar para o Início</a>
+
+  <footer>
+    Criado com carinho para guardar lembranças 💖
+  </footer>
+</body>
+</html>

@@ -1,0 +1,179 @@
+/* Importa uma fonte mais moderna e elegante */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fffaf9;
+    color: #333;
+    line-height: 1.7;
+    font-size: 16px;
+}
+
+/* Cabeçalho */
+.header {
+    background: linear-gradient(to right, #fcdede, #ffeaea);
+    padding: 60px 20px;
+    text-align: center;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+}
+
+.header h1 {
+    font-size: 3rem;
+    margin-bottom: 15px;
+    color: #991f2f;
+    font-weight: 600;
+}
+
+.header p {
+    font-size: 1.25rem;
+    color: #666;
+}
+
+/* Grade de fotos */
+.photo-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    padding: 50px 20px;
+}
+
+.photo-card {
+    background-color: #fff;
+    border-radius: 16px;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 320px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.photo-card:hover {
+    transform: scale(1.04);
+    box-shadow: 0 10px 18px rgba(0, 0, 0, 0.15);
+}
+
+.photo-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    transition: 0.3s ease;
+}
+
+.photo-info {
+    padding: 18px;
+    text-align: center;
+}
+
+.photo-info h3 {
+    font-size: 1.3rem;
+    color: #b30000;
+    margin-bottom: 10px;
+}
+
+.photo-info p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Seção de memórias */
+.memory-section {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #fefefe;
+}
+
+.section-title {
+    font-size: 2.4rem;
+    color: #a00000;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+/* Cartões de amigos */
+.friends-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 35px;
+    margin-top: 20px;
+}
+
+.friend-card {
+    background-color: #fff;
+    border-radius: 16px;
+    padding: 25px;
+    max-width: 220px;
+    text-align: center;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.friend-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.friend-avatar {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center top;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    border: 4px solid #ffeaea;
+}
+
+.friend-card h3 {
+    font-size: 1.2rem;
+    color: #b30000;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+.friend-card p {
+    font-size: 0.95rem;
+    color: #666;
+}
+
+/* Imagens de lembranças */
+.memory-photo {
+    width: 100%;
+    max-width: 260px;
+    height: 190px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: 0.3s ease;
+}
+
+.memory-photo:hover {
+    transform: scale(1.02);
+}
+
+/* Seção de vídeo */
+video {
+    border-radius: 14px;
+    margin-top: 25px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Rodapé */
+footer {
+    background: linear-gradient(to right, #fcdede, #ffeaea);
+    padding: 25px;
+    text-align: center;
+    font-size: 0.95rem;
+    color: #444;
+    margin-top: 60px;
+    border-top: 1px solid #f4cccc;
+}
